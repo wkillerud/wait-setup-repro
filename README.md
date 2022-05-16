@@ -9,6 +9,8 @@ Minimal repro for a regression in testing-library/user-event
 
 Jest fails because of a timeout.
 
+- Comment out the call to `userEvent.click()` and see the tests run.
+- Uncomment `userEvent.click()`
 - Comment out the fake timer and see the test run.
 
 Test passes.
